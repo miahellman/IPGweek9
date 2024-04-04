@@ -61,6 +61,8 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void backToMenu() { SceneManager.LoadScene("MenuState"); }
+
 	private void OnApplicationQuit()
 	{
         print(currentGameTimer);
