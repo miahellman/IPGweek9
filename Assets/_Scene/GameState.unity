@@ -1201,7 +1201,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.6886792, g: 0.53708315, b: 0.6349039, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e61546bea7f2a74795ab29cfc5f9657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _apiKey: '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 '
+  _apiKey: 
   _model: 0
   _maxTokens: 3072
   _temperature: 0.6

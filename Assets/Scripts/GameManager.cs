@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     NPCController npc;
 
-    string npcName = "Coco";
+    string npcName = "AI";
     string playerName = "Player";
 
     float currentGameTimer = 0;
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
             }
             NPCJSONReceiver npcJSON = JsonUtility.FromJson<NPCJSONReceiver>(message);
             string talkLine = npcJSON.reply_to_player;
-            tX_AIReply.text = "<color=#ff7082>" + npcName + ": </color>" + talkLine;
+            tX_AIReply.text = /* "<color=#ff7082>" + npcName + ": </color>" + */ talkLine;
 
             npc.ShowAnimation(npcJSON.animation_name);
 
